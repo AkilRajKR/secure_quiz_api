@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic
+
+#pip install "pydantic[email]"
+
+#uvicorn app.main:app --reload
